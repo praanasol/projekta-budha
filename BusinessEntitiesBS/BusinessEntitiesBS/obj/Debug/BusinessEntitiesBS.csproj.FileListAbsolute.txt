@@ -1,0 +1,5 @@
+E:\Project Works\Product Works\budhashop\BusinessEntitiesBS\BusinessEntitiesBS\bin\Debug\BusinessEntitiesBS.dll
+E:\Project Works\Product Works\budhashop\BusinessEntitiesBS\BusinessEntitiesBS\bin\Debug\BusinessEntitiesBS.pdb
+E:\Project Works\Product Works\budhashop\BusinessEntitiesBS\BusinessEntitiesBS\obj\Debug\ResolveAssemblyReference.cache
+E:\Project Works\Product Works\budhashop\BusinessEntitiesBS\BusinessEntitiesBS\obj\Debug\BusinessEntitiesBS.dll
+E:\Project Works\Product Works\budhashop\BusinessEntitiesBS\BusinessEntitiesBS\obj\Debug\BusinessEntitiesBS.pdb

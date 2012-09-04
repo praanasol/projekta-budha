@@ -1,0 +1,215 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E77F4BF3-62CB-4685-B114-B1F176DC56F0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>budhashop</RootNamespace>
+    <AssemblyName>budhashop</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ADMIN\InsertPage.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADMIN\InsertPage.aspx.cs">
+      <DependentUpon>InsertPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\InsertPage.aspx.designer.cs">
+      <DependentUpon>InsertPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.aspx.cs">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homepage.aspx.designer.cs">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\MainMaster.Master.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\MainMaster.Master.designer.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BusinessEntitiesBS\BusinessEntitiesBS\BusinessEntitiesBS.csproj">
+      <Project>{10E41B0C-8F57-4AEE-89BA-594AC558FF76}</Project>
+      <Name>BusinessEntitiesBS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\BusinessLogicBS\BusinessLogicBS\BusinessLogicBS.csproj">
+      <Project>{15DAD2B5-AEF4-4662-B1C8-C5CE3B09C28B}</Project>
+      <Name>BusinessLogicBS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\InterfacesBS\InterfacesBS\InterfacesBS.csproj">
+      <Project>{669FF723-1ABA-49DF-9580-E5FCB7B72A87}</Project>
+      <Name>InterfacesBS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\budhashop.dll" />
+    <Content Include="bin\budhashop.pdb" />
+    <Content Include="bin\BusinessEntitiesBS.dll" />
+    <Content Include="bin\BusinessEntitiesBS.pdb" />
+    <Content Include="bin\BusinessLogicBS.dll" />
+    <Content Include="bin\BusinessLogicBS.pdb" />
+    <Content Include="bin\DataAccessBS.dll" />
+    <Content Include="bin\DataAccessBS.pdb" />
+    <Content Include="bin\InterfacesBS.dll" />
+    <Content Include="bin\InterfacesBS.pdb" />
+    <Content Include="homepage.aspx" />
+    <Content Include="images\arrow_down.gif" />
+    <Content Include="images\header_bg.gif" />
+    <Content Include="images\img.gif" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\trally.gif" />
+    <Content Include="images\trally1.gif" />
+    <Content Include="index.html" />
+    <Content Include="ItemImages\3\4\4Photo.jpg" />
+    <Content Include="ItemImages\3\4\4Photomedium.jpg" />
+    <Content Include="ItemImages\3\4\4small.jpg" />
+    <Content Include="MasterPage\MainMaster.Master" />
+    <Content Include="obj\Debug\budhashop.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\budhashop.dll" />
+    <Content Include="obj\Debug\budhashop.pdb" />
+    <Content Include="script\html5shiv\build.xml" />
+    <Content Include="script\html5shiv\build\compiler.jar" />
+    <Content Include="script\html5shiv\dist\html5shiv-printshiv.js" />
+    <Content Include="script\html5shiv\dist\html5shiv.js" />
+    <Content Include="script\html5shiv\src\html5shiv-printshiv.js" />
+    <Content Include="script\html5shiv\src\html5shiv.js" />
+    <Content Include="script\html5shiv\test\data\body-crash.jpg" />
+    <Content Include="script\html5shiv\test\data\iframed-tests.html" />
+    <Content Include="script\html5shiv\test\data\inline-mixed-media.css" />
+    <Content Include="script\html5shiv\test\data\inline-print-media.css" />
+    <Content Include="script\html5shiv\test\data\no-print.css" />
+    <Content Include="script\html5shiv\test\data\paramtracer.swf" />
+    <Content Include="script\html5shiv\test\data\print-styles.css" />
+    <Content Include="script\html5shiv\test\data\print.css" />
+    <Content Include="script\html5shiv\test\data\screen.css" />
+    <Content Include="script\html5shiv\test\highcharts\area-basic.html" />
+    <Content Include="script\html5shiv\test\highcharts\highcharts.js" />
+    <Content Include="script\html5shiv\test\html5shiv.html" />
+    <Content Include="script\html5shiv\test\iframe.1-1.html" />
+    <Content Include="script\html5shiv\test\iframe.1-2.html" />
+    <Content Include="script\html5shiv\test\iframe.1.html" />
+    <Content Include="script\html5shiv\test\index.html" />
+    <Content Include="script\html5shiv\test\jquery-1.7.1\data\dashboard.xml" />
+    <Content Include="script\html5shiv\test\jquery-1.7.1\data\iframe.html" />
+    <Content Include="script\html5shiv\test\jquery-1.7.1\data\test.js" />
+    <Content Include="script\html5shiv\test\jquery-1.7.1\data\testinit.js" />
+    <Content Include="script\html5shiv\test\jquery-1.7.1\data\testrunner.js" />
+    <Content Include="script\html5shiv\test\jquery-1.7.1\data\testsuite.css" />
+    <Content Include="script\html5shiv\test\jquery-1.7.1\data\versioncheck.js" />
+    <Content Include="script\html5shiv\test\jquery-1.7.1\index.html" />
+    <Content Include="script\html5shiv\test\jquery-1.7.1\unit\core.js" />
+    <Content Include="script\html5shiv\test\jquery-1.7.1\unit\manipulation.js" />
+    <Content Include="script\html5shiv\test\jquery-1.7.1\unit\traversing.js" />
+    <Content Include="script\html5shiv\test\mixed-test.html" />
+    <Content Include="script\html5shiv\test\object-test.html" />
+    <Content Include="script\html5shiv\test\perf.1.html" />
+    <Content Include="script\html5shiv\test\perf.2.html" />
+    <Content Include="script\html5shiv\test\qunit\qunit.css" />
+    <Content Include="script\html5shiv\test\qunit\qunit.js" />
+    <Content Include="script\html5shiv\test\style.all.css" />
+    <Content Include="script\html5shiv\test\style.css" />
+    <Content Include="script\html5shiv\test\style.print.css" />
+    <Content Include="script\html5shiv\test\unit\tests.js" />
+    <Content Include="script\js.js" />
+    <Content Include="Styles\format.css" />
+    <Content Include="Styles\layout.css" />
+    <Content Include="Styles\menus.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="script\html5shiv\.gitattributes" />
+    <None Include="script\html5shiv\.gitignore" />
+    <None Include="script\html5shiv\readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="ItemImages\4\" />
+    <Folder Include="ItemImages\Catagory 1\" />
+    <Folder Include="ItemImages\Catagory 2\" />
+    <Folder Include="obj\Debug\Refactor\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Source\" />
+    <Folder Include="UserControls\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50266</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

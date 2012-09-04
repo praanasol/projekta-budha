@@ -1,0 +1,7 @@
+E:\Project Works\Product Works\budhashop\InterfacesBS\InterfacesBS\bin\Debug\InterfacesBS.dll
+E:\Project Works\Product Works\budhashop\InterfacesBS\InterfacesBS\bin\Debug\InterfacesBS.pdb
+E:\Project Works\Product Works\budhashop\InterfacesBS\InterfacesBS\bin\Debug\BusinessEntitiesBS.dll
+E:\Project Works\Product Works\budhashop\InterfacesBS\InterfacesBS\bin\Debug\BusinessEntitiesBS.pdb
+E:\Project Works\Product Works\budhashop\InterfacesBS\InterfacesBS\obj\Debug\ResolveAssemblyReference.cache
+E:\Project Works\Product Works\budhashop\InterfacesBS\InterfacesBS\obj\Debug\InterfacesBS.dll
+E:\Project Works\Product Works\budhashop\InterfacesBS\InterfacesBS\obj\Debug\InterfacesBS.pdb

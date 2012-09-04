@@ -1,0 +1,9 @@
+E:\Project Works\Product Works\budhashop\DataAccessBS\DataAccessBS\bin\Debug\DataAccessBS.dll
+E:\Project Works\Product Works\budhashop\DataAccessBS\DataAccessBS\bin\Debug\DataAccessBS.pdb
+E:\Project Works\Product Works\budhashop\DataAccessBS\DataAccessBS\bin\Debug\BusinessEntitiesBS.dll
+E:\Project Works\Product Works\budhashop\DataAccessBS\DataAccessBS\bin\Debug\InterfacesBS.dll
+E:\Project Works\Product Works\budhashop\DataAccessBS\DataAccessBS\bin\Debug\BusinessEntitiesBS.pdb
+E:\Project Works\Product Works\budhashop\DataAccessBS\DataAccessBS\bin\Debug\InterfacesBS.pdb
+E:\Project Works\Product Works\budhashop\DataAccessBS\DataAccessBS\obj\Debug\ResolveAssemblyReference.cache
+E:\Project Works\Product Works\budhashop\DataAccessBS\DataAccessBS\obj\Debug\DataAccessBS.dll
+E:\Project Works\Product Works\budhashop\DataAccessBS\DataAccessBS\obj\Debug\DataAccessBS.pdb

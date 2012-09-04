@@ -1,0 +1,11 @@
+E:\Project Works\Product Works\budhashop\BusinessLogicBS\BusinessLogicBS\bin\Debug\BusinessLogicBS.dll
+E:\Project Works\Product Works\budhashop\BusinessLogicBS\BusinessLogicBS\bin\Debug\BusinessLogicBS.pdb
+E:\Project Works\Product Works\budhashop\BusinessLogicBS\BusinessLogicBS\bin\Debug\BusinessEntitiesBS.dll
+E:\Project Works\Product Works\budhashop\BusinessLogicBS\BusinessLogicBS\bin\Debug\DataAccessBS.dll
+E:\Project Works\Product Works\budhashop\BusinessLogicBS\BusinessLogicBS\bin\Debug\InterfacesBS.dll
+E:\Project Works\Product Works\budhashop\BusinessLogicBS\BusinessLogicBS\bin\Debug\BusinessEntitiesBS.pdb
+E:\Project Works\Product Works\budhashop\BusinessLogicBS\BusinessLogicBS\bin\Debug\DataAccessBS.pdb
+E:\Project Works\Product Works\budhashop\BusinessLogicBS\BusinessLogicBS\bin\Debug\InterfacesBS.pdb
+E:\Project Works\Product Works\budhashop\BusinessLogicBS\BusinessLogicBS\obj\Debug\ResolveAssemblyReference.cache
+E:\Project Works\Product Works\budhashop\BusinessLogicBS\BusinessLogicBS\obj\Debug\BusinessLogicBS.dll
+E:\Project Works\Product Works\budhashop\BusinessLogicBS\BusinessLogicBS\obj\Debug\BusinessLogicBS.pdb
